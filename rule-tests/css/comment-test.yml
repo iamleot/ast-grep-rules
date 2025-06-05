@@ -1,0 +1,12 @@
+id: css-comment
+valid:
+  - |
+      p {
+        color: black;
+      }
+invalid:
+  - '/* This is a CSS comment */'
+  - |
+      p {
+        color: black; /* no comment */
+      }

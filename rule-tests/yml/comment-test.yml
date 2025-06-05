@@ -1,0 +1,6 @@
+id: yml-comment
+valid:
+  - "id: not a comment"
+invalid:
+  - "# This is a YAML comment"
+  - "key: value  # no comment"

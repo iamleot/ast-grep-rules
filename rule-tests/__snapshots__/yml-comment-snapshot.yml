@@ -1,0 +1,14 @@
+id: yml-comment
+snapshots:
+  '# This is a YAML comment':
+    labels:
+    - source: '# This is a YAML comment'
+      style: primary
+      start: 0
+      end: 24
+  'key: value  # no comment':
+    labels:
+    - source: '# no comment'
+      style: primary
+      start: 12
+      end: 24

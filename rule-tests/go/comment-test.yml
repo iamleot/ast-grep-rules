@@ -1,0 +1,6 @@
+id: go-comment
+valid:
+  - fmt.Println("something")
+invalid:
+  - // This is a Go comment
+  - fmt.Println("something")  // no comment

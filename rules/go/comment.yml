@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ast-grep/ast-grep/main/schemas/rule.json
+
+id: go-comment
+message: Go comment
+severity: info
+language: go
+rule:
+  kind: comment
+note: >-
+  Extract Go comments.

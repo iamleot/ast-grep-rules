@@ -1,0 +1,8 @@
+id: javascript-comment
+valid:
+  - console.log("something");
+invalid:
+  - '/* This is a JavaScript comment */'
+  - 'console.log("something"); /* no comment */'
+  - 'console.log("something else"); // another comment'
+  - // This is another JavaScript comment

@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ast-grep/ast-grep/main/schemas/rule.json
+
+id: c-comment
+message: C comment
+severity: info
+language: c
+rule:
+  kind: comment
+note: >-
+  Extract C comments.

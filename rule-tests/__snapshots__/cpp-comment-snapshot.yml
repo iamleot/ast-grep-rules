@@ -1,0 +1,26 @@
+id: cpp-comment
+snapshots:
+  /* This is a C++ comment */:
+    labels:
+    - source: /* This is a C++ comment */
+      style: primary
+      start: 0
+      end: 27
+  // This is another C++ comment:
+    labels:
+    - source: // This is another C++ comment
+      style: primary
+      start: 0
+      end: 30
+  cout << "something else"; // another comment:
+    labels:
+    - source: // another comment
+      style: primary
+      start: 26
+      end: 44
+  cout << "something"; /* no comment */:
+    labels:
+    - source: /* no comment */
+      style: primary
+      start: 21
+      end: 37

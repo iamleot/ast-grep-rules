@@ -1,0 +1,14 @@
+id: go-comment
+snapshots:
+  // This is a Go comment:
+    labels:
+    - source: // This is a Go comment
+      style: primary
+      start: 0
+      end: 23
+  fmt.Println("something")  // no comment:
+    labels:
+    - source: // no comment
+      style: primary
+      start: 26
+      end: 39

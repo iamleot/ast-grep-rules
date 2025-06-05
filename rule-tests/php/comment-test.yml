@@ -1,0 +1,8 @@
+id: php-comment
+valid:
+  - echo "something"
+invalid:
+  - // This is a PHP comment
+  - echo "something"  // no comment
+  - echo "something else"  \# another comment
+  - '/* Another comment, C-style */'

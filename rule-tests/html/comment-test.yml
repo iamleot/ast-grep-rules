@@ -1,0 +1,6 @@
+id: html-comment
+valid:
+  - <p>something</p>
+invalid:
+  - '<!-- This is an HTML comment -->'
+  - '<p>something</p> <!-- no comment -->'

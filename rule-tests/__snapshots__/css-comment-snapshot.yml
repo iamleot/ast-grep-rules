@@ -1,0 +1,17 @@
+id: css-comment
+snapshots:
+  /* This is a CSS comment */:
+    labels:
+    - source: /* This is a CSS comment */
+      style: primary
+      start: 0
+      end: 27
+  ? |
+    p {
+      color: black; /* no comment */
+    }
+  : labels:
+    - source: /* no comment */
+      style: primary
+      start: 20
+      end: 36

@@ -1,0 +1,8 @@
+id: cpp-comment
+valid:
+  - cout << "something";
+invalid:
+  - '/* This is a C++ comment */'
+  - 'cout << "something"; /* no comment */'
+  - 'cout << "something else"; // another comment'
+  - // This is another C++ comment
