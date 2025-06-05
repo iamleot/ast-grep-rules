@@ -1,0 +1,14 @@
+id: python-comment
+snapshots:
+  \# This is a Python comment:
+    labels:
+    - source: '# This is a Python comment'
+      style: primary
+      start: 1
+      end: 27
+  print("something")  \# no comment:
+    labels:
+    - source: '# no comment'
+      style: primary
+      start: 21
+      end: 33

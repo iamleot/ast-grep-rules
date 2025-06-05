@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ast-grep/ast-grep/main/schemas/rule.json
+
+id: python-comment
+message: Python comment
+severity: info
+language: Python
+rule:
+  kind: comment
+note: >-
+  Extract Python comments.

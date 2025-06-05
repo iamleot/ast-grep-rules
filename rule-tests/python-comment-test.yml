@@ -1,0 +1,6 @@
+id: python-comment
+valid:
+  - print("something")
+invalid:
+  - \# This is a Python comment
+  - print("something")  \# no comment
