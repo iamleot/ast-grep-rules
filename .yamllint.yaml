@@ -1,0 +1,10 @@
+---
+
+extends: default
+
+rules:
+  document-start: false
+  indentation:
+    ignore:
+      - 'rule-tests/__snapshots__/*.yml'
+  line-length: false
