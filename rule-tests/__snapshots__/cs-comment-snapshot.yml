@@ -1,0 +1,26 @@
+id: cs-comment
+snapshots:
+  /* This is a C# comment */:
+    labels:
+    - source: /* This is a C# comment */
+      style: primary
+      start: 0
+      end: 26
+  // This is another C# comment:
+    labels:
+    - source: // This is another C# comment
+      style: primary
+      start: 0
+      end: 29
+  Console.WriteLine("something else"); // another comment:
+    labels:
+    - source: // another comment
+      style: primary
+      start: 37
+      end: 55
+  Console.WriteLine("something"); /* no comment */:
+    labels:
+    - source: /* no comment */
+      style: primary
+      start: 32
+      end: 48

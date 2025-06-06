@@ -1,0 +1,8 @@
+id: cs-comment
+valid:
+  - Console.WriteLine("something");
+invalid:
+  - '/* This is a C# comment */'
+  - 'Console.WriteLine("something"); /* no comment */'
+  - 'Console.WriteLine("something else"); // another comment'
+  - '// This is another C# comment'
